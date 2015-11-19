@@ -5,5 +5,9 @@
     <option name="PATTERN_ANNOTATION" value="org.intellij.lang.annotations.Pattern" />
     <option name="SUBST_ANNOTATION" value="org.intellij.lang.annotations.Subst" />
     <option name="RESOLVE_REFERENCES" value="true" />
+    <injection language="encoding-reference" injector-id="java">
+      <display-name>Paths.get (java.nio.file)</display-name>
+      <place><![CDATA[psiParameter().ofMethod(0, psiMethod().withName("get").withParameters("java.lang.String", "java.lang.String...").definedInClass("java.nio.file.Paths"))]]></place>
+    </injection>
   </component>
 </application>

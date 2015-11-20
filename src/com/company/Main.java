@@ -5,6 +5,10 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("TESCIK");
+        String s= "przykladowy string";
+        System.out.println(s);
+
+
 	// write your code here
     }
 }
